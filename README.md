@@ -64,7 +64,17 @@ This project analyzes simplified C/C++ code to detect errors, build a symbol tab
 - Program with undeclared variable  
 - Program with redeclared variable  
 - Division by zero case  
-- Correct input program  
+- Correct input program
+  
+ ##  Sample Input (Test Case)
+
+```c
+int x
+y = 5;
+int x;
+z = x / 0;
+a = b + 3
+#
 
 ---
 
@@ -91,3 +101,4 @@ This project analyzes simplified C/C++ code to detect errors, build a symbol tab
 
 This project demonstrates the fundamental working of a compiler by implementing lexical analysis, syntax checking, semantic validation, and intermediate code generation.  
 It serves as an educational tool for understanding compiler design concepts through practical implementation.
+
